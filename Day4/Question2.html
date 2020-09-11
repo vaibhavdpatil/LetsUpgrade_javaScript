@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Web Page</title>
+  </head>
+  <body>
+<script>    
+function copyTextValue() {
+    var text1 = document.getElementById("input1").value;
+    document.getElementById("input2").value = text1;
+    
+}
+</script>
+<pre>
+<input id="input1">
+
+<input id="input2">
+
+<button name="button1" onclick="copyTextValue();">copy</button>
+</pre>
+  </body>
+</html>
